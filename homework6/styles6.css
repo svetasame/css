@@ -1,0 +1,238 @@
+            @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+            }
+            
+            body {
+                scroll-behavior: smooth;
+                background-color: #FFFFFF;
+            }
+            
+            img {
+                display: block;
+                max-width: 100%;
+            }
+            
+            h1,
+            h2,
+            p,
+            a,
+            button {
+                color: #222222;
+                font-family: 'Lato';
+                font-weight: 400;
+                border: none;
+                background: none;
+            }
+            
+            .btn {
+                cursor: pointer;
+            }
+            
+            .container {
+                max-width: 1140px;
+                margin: 0 auto;
+            }
+            
+            .header {
+                height: 75px;
+                background-color: #222222;
+            }
+            
+            .navigation {
+                height: 75px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .icon {
+                display: block;
+                width: 29px;
+                background: none;
+                border: none;
+            }
+            
+            .big {
+                width: 44px;
+            }
+            
+            .navigation__leftSide {
+                display: flex;
+                justify-content: space-between;
+                gap: 41px;
+            }
+            
+            .navigation__rightSide {
+                display: flex;
+                justify-content: space-between;
+                gap: 33px;
+            }
+            
+            .mainbanner {
+                background-color: #F1E4E6;
+                margin-bottom: 65px;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .banner {
+                width: 1600px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 64px;
+            }
+            
+            .banner__rightSide {
+                border-left: #F16D7F;
+                border-left-color: #F16D7F;
+                border-left-width: 12px;
+                border-left-style: solid;
+                padding-left: 16px;
+                display: flex;
+                max-width: 377px;
+                flex-direction: column;
+            }
+            
+            .banner__rightSide h1 {
+                font-weight: 900;
+                font-size: 48px;
+            }
+            
+            .banner__rightSide h2,
+            p {
+                font-weight: 700;
+                font-size: 32px;
+            }
+            
+            .pink {
+                color: #F16D7F;
+            }
+            
+            .text {
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+            }
+            
+            .img1 {
+                background: url(./img/11.png);
+            }
+            
+            .img2 {
+                background: url(./img/12.png);
+            }
+            
+            .img3 {
+                background: url(./img/13.png);
+            }
+            
+            .img4 {
+                background: url(./img/14.png);
+            }
+            
+            .offers {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2);
+                gap: 30px;
+                margin-bottom: 96px;
+            }
+            
+            .offer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-size: cover;
+                background-position: center;
+                height: 260px;
+                max-width: 100%;
+            }
+            
+            .bigOffer {
+                grid-column: span 3;
+                height: 180px;
+                max-width: 1140px;
+            }
+            
+            .offer h1 {
+                font-size: 16px;
+                color: #FFFFFF;
+            }
+            
+            .offer h2 {
+                font-weight: 700;
+                font-size: 24px;
+            }
+            
+            .fetured h1 {
+                font-size: 30px;
+            }
+            
+            .fetured p {
+                font-size: 14px;
+                color: #9F9F9F;
+            }
+            
+            .tittle {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 6px;
+                margin-bottom: 48px;
+            }
+            
+            .blocks {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2);
+                gap: 30px;
+                margin-bottom: 48px;
+            }
+            
+            .bottom {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 60px;
+            }
+            
+            .browse h2 {
+                color: #F26376;
+                font-size: 16px;
+                border-width: 1px;
+                border-color: #FF6A6A;
+                border-style: solid;
+                padding: 15px 38px;
+            }
+            
+            .blocks h1 {
+                font-size: 13px;
+                color: #000000;
+            }
+            
+            .blocks p {
+                font-size: 14px;
+                font-weight: 400;
+                color: #5D5D5D;
+            }
+            
+            .blocks h2 {
+                font-size: 16px;
+                color: #F16D7F;
+            }
+            
+            .textBlock {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                max-width: 360px;
+                padding: 24px 16px;
+                gap: 16px;
+                max-width: 360px;
+                background-color: #f8f8f8;
+            }
