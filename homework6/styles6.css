@@ -337,4 +337,33 @@ p {
         position: absolute;
         z-index: 2;
     }
+    .spec {
+        position: relative;
+    }
+    .quantity {
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .number {
+        position: absolute;
+        z-index: 3;
+        color: #FFFFFF;
+        font-size: 12px;
+    }
+    .product {
+        position: absolute;
+        z-index: 2;
+        width: 19px;
+        height: 19px;
+        background-color: #F16D7F;
+        border-radius: 50%;
+    }
+    .quantityprod {
+        display: flex;
+        justify-content: end;
+        align-items: start;
+    }
 }
