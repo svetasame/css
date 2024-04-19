@@ -1,5 +1,5 @@
 const menuActive = document.querySelector('.menu');
-const burger = document.querySelector('burger');
+const burger = document.querySelector('.burger');
 const menuClose = document.querySelector('.menuClose');
 
 function toggleMenu() {
