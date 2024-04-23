@@ -1,0 +1,43 @@
+@import 'vars';
+@import 'mixin';
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.container {
+    background-color: $backgroundSite;
+    max-width: $widthSite;
+    margin: 0 auto;
+    color: $textSite;
+}
+
+.container {
+    color: $textSite;
+    &__colored {
+        color: $textSiteClr;
+    }
+}
+
+.content {
+    @include displayflex(flex, wrap, center, center);
+    gap: $gapSite;
+    &__item {
+        width: $widthSite/4;
+        border: $borderSite;
+        height: 200px;
+    }
+}
+
+.nav {
+    display: flex;
+    gap: $gapSite;
+    &__link {
+        text-decoration: none;
+    }
+}
