@@ -157,10 +157,105 @@ button {
         padding-top: 19px;
         padding-bottom: 22px;
         text-transform: uppercase;
+        list-style-type: none;
+        position: relative;
+        // &:hover .navigation__megaMenu {
+        //     display: flex;
+        // }
     }
-    &__menuLink {
+    &__menuLink a {
         font-size: 14px;
         font-weight: 700;
+        padding: 20px;
+        &:hover {
+            color: $mainclrpink;
+        }
+    }
+    &__menuLink {
+        &:hover .navigation__megaMenu {
+            display: flex;
+        }
+        &_last:hover .navigation__megaMenu {
+            right: 0;
+            left: auto;
+        }
+        &_last:hover .navigation__megaMenu::before {
+            right: 350px;
+            left: auto;
+        }
+    }
+    &__megaMenu {
+        padding: 25px 20px;
+        background-color: $mainclrwhite;
+        border-radius: 5px;
+        border: 1px solid $backgroundclrgrey;
+        display: none;
+        // height: 310px; // 
+        position: absolute;
+        top: 43px;
+        z-index: 5;
+        &::before {
+            content: "";
+            display: block;
+            width: 16px;
+            height: 16px;
+            background-color: $mainclrwhite;
+            position: absolute;
+            top: -8px;
+            left: 28px;
+            transform: rotate(45deg);
+            border-top: 1px solid $backgroundclrgrey;
+            border-left: 1px solid $backgroundclrgrey;
+        }
+        &_list {
+            margin-right: 46px;
+        }
+        &_list:last-of-type {
+            margin-right: 0;
+        }
+        &_list h1 {
+            font-size: 14px;
+            font-weight: 700;
+            color: $mainclrdark;
+        }
+        &_list a {
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.025em;
+            color: $textdarkgray;
+            text-transform: none;
+            padding: 16px 0 0 0;
+            display: block;
+            &:hover {
+                color: $mainclrpink;
+            }
+        }
+        &_tittle {
+            border-bottom: $backgroundclrgrey solid 1px;
+            padding-bottom: 8px;
+            width: 235px;
+        }
+        &_img {
+            background: url(./img/megamenu.jpg);
+            background-repeat: no-repeat;
+            width: 255px;
+            height: 118px;
+        }
+        &_sale {
+            font-size: 22px;
+            line-height: 28px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            color: $mainclrwhite;
+            padding-right: 10px;
+            padding-bottom: 12px;
+        }
+        &_pic {
+            display: flex;
+            justify-content: end;
+            align-items: end;
+        }
     }
 }
 
@@ -589,6 +684,9 @@ button {
         font-weight: 700;
         letter-spacing: 0.025em;
         margin-bottom: 30px;
+    }
+    &__RightSideBlock p:hover {
+        color: $mainclrpink
     }
     &__RightSideBlock p {
         font-size: 16px;

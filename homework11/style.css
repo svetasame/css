@@ -157,10 +157,99 @@ button {
   padding-top: 19px;
   padding-bottom: 22px;
   text-transform: uppercase;
+  list-style-type: none;
+  position: relative;
 }
-.navigation__menuLink {
+.navigation__menuLink a {
   font-size: 14px;
   font-weight: 700;
+  padding: 20px;
+}
+.navigation__menuLink a:hover {
+  color: #f16d7f;
+}
+.navigation__menuLink:hover .navigation__megaMenu {
+  display: flex;
+}
+.navigation__menuLink_last:hover .navigation__megaMenu {
+  right: 0;
+  left: auto;
+}
+.navigation__menuLink_last:hover .navigation__megaMenu::before {
+  right: 350px;
+  left: auto;
+}
+.navigation__megaMenu {
+  padding: 25px 20px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+  display: none;
+  position: absolute;
+  top: 43px;
+  z-index: 5;
+}
+.navigation__megaMenu::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: -8px;
+  left: 28px;
+  transform: rotate(45deg);
+  border-top: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+}
+.navigation__megaMenu_list {
+  margin-right: 46px;
+}
+.navigation__megaMenu_list:last-of-type {
+  margin-right: 0;
+}
+.navigation__megaMenu_list h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222222;
+}
+.navigation__megaMenu_list a {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  color: #646464;
+  text-transform: none;
+  padding: 16px 0 0 0;
+  display: block;
+}
+.navigation__megaMenu_list a:hover {
+  color: #f16d7f;
+}
+.navigation__megaMenu_tittle {
+  border-bottom: #e8e8e8 solid 1px;
+  padding-bottom: 8px;
+  width: 235px;
+}
+.navigation__megaMenu_img {
+  background: url(./img/megamenu.jpg);
+  background-repeat: no-repeat;
+  width: 255px;
+  height: 118px;
+}
+.navigation__megaMenu_sale {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  color: #FFFFFF;
+  padding-right: 10px;
+  padding-bottom: 12px;
+}
+.navigation__megaMenu_pic {
+  display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
 .mainbanner__center {
@@ -589,6 +678,9 @@ button {
   font-weight: 700;
   letter-spacing: 0.025em;
   margin-bottom: 30px;
+}
+.info__RightSideBlock p:hover {
+  color: #f16d7f;
 }
 .info__RightSideBlock p {
   font-size: 16px;
