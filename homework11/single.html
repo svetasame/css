@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <title>Single page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <header class="header">
@@ -367,59 +368,114 @@
     </header>
 
     <main class="main ">
-        <section class="mainbanner__center ">
-            <img class="mainbanner__center_picture" src="./img/mainpicture.png " alt="mainpicture ">
-            <div class="mainbanner__center_text container">
-                <div class="mainbanner__center_textBorder">
-                    <h1>THE BRAND</h1>
-                    <h2>OF LUXERIOUS <span class=" pinkcolored ">FASHION</span></h2>
+        <section class="breadcrumbs">
+            <div class="breadcrumbs__center container">
+                <div class="breadcrumbs__leftside">
+                    <h1 class="breadcrumbs__tittle pinkcolored">NEW ARRIVALS</h1>
+                </div>
+                <div class="breadcrumbs__rightside">
+                    <h2 class="breadcrumbs__crumbs"> HOME </h2>
+                    <h2 class="breadcrumbs__crumbs"> MEN </h2>
+                    <h2 class="breadcrumbs__crumbs"> NEW ARRIVALS</h2>
                 </div>
             </div>
-
-
         </section>
+        <section class="product">
+            <div class="product__imgslider ">
+                <img src="./img/productbig.png" alt="productbig.png">
 
-        <section class="offers container ">
-            <div class="offers__offer offers__offer_big offers__img1 ">
-                <div class="offers__offerLink ">
-                    <a href="# ">
-                        <h1>HOT DEAL</h1>
-                        <h2 class="pinkcolored ">FOR MEN</h2>
-                    </a>
+                <div class="product__slider ">
+                    <div class="product__navi ">
+                        <p class="product__navileft ">
+                            <</p>
+                    </div>
+                    <div class="product__navi ">
+                        <p class="product__naviright ">></p>
+                    </div>
                 </div>
             </div>
-            <div class="offers__offer offers__img2">
-                <div class="offers__offerLink ">
-                    <a href="# ">
-                        <h1>30% OFFER</h1>
-                        <h2 class="pinkcolored ">FOR WOMEN</h2>
-                    </a>
-                </div>
-            </div>
-            <div class="offers__offer offers__offer_big offers__img3">
-                <div class="offers__offerLink ">
-                    <a href="# ">
+            <div class="product__info container">
+                <div class="product__heading ">
+                    <h1 class="product__collection pinkcolored container">WOMEN COLLECTION</h1>
+                    <div class="product__collectionborder">
+                        <span class="product__bordergrey"></span>
+                        <span class="product__borderpink"></span>
+                        <span class="product__bordergrey "></span>
+                    </div>
 
-                        <h1>NEW ARRIVAL</h1>
-                        <h2 class="pinkcolored ">FOR KIDS</h2>
-                    </a>
+                    <h2 class=" product__tittle ">Moschino Cheap And Chic</h2>
                 </div>
-            </div>
-            <div class="offers__offer offers__img4">
-                <div class="offers__offerLink ">
-                    <a href="# ">
-                        <h1>LUXIROUS &amp; TRENDY</h1>
-                        <h2 class="pinkcolored ">ACCESORIES</h2>
-                    </a>
+                <p class="product__description ">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+                <div class="product__varies ">
+                    <div class="product__varie ">
+                        <span>MATERIAL: </span><span class="product__variebold "> COTTON</span>
+                    </div>
+                    <div class="product__varie ">
+                        <span>DESIGNER: </span><span class="product__variebold "> BINBURHAN</span>
+                    </div>
                 </div>
+                <h3 class="product__price pinkcolored">$561</h3>
+                <div class="product__properties ">
+                    <div class="product__property ">
+                        <h4 class="product__variebold ">CHOOSE COLOR</h4>
+                        <details class="product__detail ">
+                            <summary class="product__summary ">
+                                <div class="product__colorchose ">
+                                    <span class="product__color "></span>
+                                    <p>Red</p>
+                                </div>
+                                <img src="./img/detailscatalog.png " alt="summary ">
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="product__property ">
+                        <h4 class="product__variebold ">CHOOSE SIZE</h4>
+                        <details class="product__detail ">
+                            <summary class="product__summary ">
+                                <p>XXL</p>
+                                <img src="./img/detailscatalog.png " alt="summary ">
+                            </summary>
+                        </details>
+                    </div>
+                    <div class="product__property ">
+                        <h4 class="product__variebold ">QUANTITY</h4>
+                        <details class="product__detail ">
+                            <summary class="product__summary ">
+                                <p>2</p>
+
+                            </summary>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="product__add ">
+                    <svg width="26 " height="24 " viewBox="0 0 32 29 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                    <path 
+                    d="M26.1998 29C25.5521 28.9738 24.9404 28.6948 24.4961 28.2227C24.0518 27.7506 23.8103 27.1232 23.8234 26.475C23.8365 25.8269 24.1032 25.2097 24.5662 24.7559C25.0292 24.3022 25.6516 24.048 26.2999 24.048C26.9482 24.048 27.5706 24.3022
+                            28.0336 24.7559C28.4966 25.2097 28.7633 25.8269 28.7764 26.475C28.7895 27.1232 28.5479 27.7506 28.1036 28.2227C27.6593 28.6948 27.0477 28.9738 26.3999 29H26.1998ZM6.75183 26.32C6.75183 25.79 6.90901 25.2718 7.20349 24.8311C7.49797
+                            24.3904 7.91654 24.0469 8.40625 23.844C8.89596 23.6412 9.43484 23.5881 9.95471 23.6915C10.4746 23.7949 10.9521 24.0502 11.3269 24.425C11.7017 24.7998 11.957 25.2773 12.0604 25.7972C12.1638 26.317 12.1107 26.8559 11.9078 27.3456C11.705
+                            27.8353 11.3615 28.2539 10.9208 28.5483C10.4801 28.8428 9.96194 29 9.43188 29C9.07977 29.0003 8.73102 28.9311 8.40564 28.7966C8.08026 28.662 7.7846 28.4646 7.53552 28.2158C7.28645 27.9669 7.08891 27.6713 6.9541 27.3461C6.81929
+                            27.0208 6.74988 26.6721 6.74988 26.32H6.75183ZM10.5519 20.686C10.2924 20.6868 10.0398 20.6024 9.83301 20.4457C9.62617 20.2891 9.47648 20.0689 9.40686 19.819L4.57385 2.36401H1.18091C0.867422 2.36401 0.566761 2.23947 0.345093 2.01781C0.123425
+                            1.79614 -0.00109863 1.49549 -0.00109863 1.18201C-0.00109863 0.868519 0.123425 0.567873 0.345093 0.346205C0.566761 0.124537 0.867422 5.81268e-06 1.18091 5.81268e-06H5.46191C5.7214 -0.00080736 5.97394 0.0837201 6.18066 0.240568C6.38739
+                            0.397416 6.53674 0.617884 6.60583 0.868006L11.4388 18.323H24.6168L28.9999 8.27501H14.3999C14.2417 8.27961 14.0843 8.25242 13.9368 8.19507C13.7893 8.13771 13.6548 8.05134 13.5413 7.94108C13.4277 7.83082 13.3375 7.69891 13.2759 7.55315C13.2143
+                            7.40739 13.1825 7.25075 13.1825 7.0925C13.1825 6.93426 13.2143 6.77762 13.2759 6.63186C13.3375 6.4861 13.4277 6.35419 13.5413 6.24393C13.6548 6.13367 13.7893 6.0473 13.9368 5.98994C14.0843 5.93259 14.2417 5.90541 14.3999 5.91001H30.8129C31.0086
+                            5.90996 31.2011 5.95866 31.3733 6.05172C31.5454 6.14478 31.6917 6.27926 31.7988 6.44301C31.9067 6.60729 31.9723 6.79569 31.9897 6.99145C32.0072 7.18721 31.976 7.38424 31.8989 7.565L26.4939 19.977C26.4015 20.1876 26.2499 20.3668
+                            26.0574 20.4927C25.8649 20.6186 25.6399 20.6858 25.4099 20.686H10.5519Z " -/>
+                    </svg>
+                    <h2>Add to Cart</h2>
+
+                </div>
+
+
             </div>
+
+
 
         </section>
 
         <section class="fetured container ">
-            <div class="fetured__tittle ">
-                <h1>Fetured Items</h1>
-                <p>Shop for items based on what we featured in this week</p>
+            <div class="fetured__alsolike">
+                <h1>you may like also</h1>
             </div>
 
             <div class="fetured__blocks ">
@@ -472,7 +528,6 @@
                         </div>
                     </a>
                 </div>
-
                 <div class="fetured__blocksBlock ">
                     <a href="# ">
                         <div class="addrectangle hidden ">
@@ -481,7 +536,7 @@
                                 <h2>Add to Cart</h2>
                             </div>
                         </div>
-                        <img class="blockImg " src="./img/fetured4.png " alt="block1 ">
+                        <img class="blockImg " src="./img/fetured2.png " alt="block1 ">
                         <div class="fetured__blocksBlock_blockText ">
                             <h1>MANGO PEOPLE T-SHIRT</h1>
                             <h2 class="pinkcolored ">$52.00</h2>
@@ -489,162 +544,56 @@
                     </a>
                 </div>
 
-                <div class="fetured__blocksBlock ">
-                    <a href="# ">
-                        <div class="addrectangle hidden ">
-                            <div class="addrectangle__button ">
-                                <img class="addrectangle__pic " src="./img/add.svg " alt="add ">
-                                <h2>Add to Cart</h2>
-                            </div>
-                        </div>
-                        <img class="blockImg " src="./img/fetured5.png " alt="block1 ">
-                        <div class="fetured__blocksBlock_blockText ">
-                            <h1>MANGO PEOPLE T-SHIRT</h1>
-                            <h2 class="pinkcolored ">$52.00</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="fetured__blocksBlock ">
-                    <a href="# ">
-                        <div class="addrectangle hidden ">
-                            <div class="addrectangle__button ">
-                                <img class="addrectangle__pic " src="./img/add.svg " alt="add ">
-                                <h2>Add to Cart</h2>
-                            </div>
-                        </div>
-                        <img class="blockImg " src="./img/fetured6.png " alt="block1 ">
-                        <div class="fetured__blocksBlock_blockText ">
-                            <h1>MANGO PEOPLE T-SHIRT</h1>
-                            <h2 class="pinkcolored ">$52.00</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="fetured__blocksBlock ">
-                    <a href="# ">
-                        <div class="addrectangle hidden ">
-                            <div class="addrectangle__button ">
-                                <img class="addrectangle__pic " src="./img/add.svg " alt="add ">
-                                <h2>Add to Cart</h2>
-                            </div>
-                        </div>
-                        <img class="blockImg " src="./img/fetured7.png " alt="block1 ">
-                        <div class="fetured__blocksBlock_blockText ">
-                            <h1>MANGO PEOPLE T-SHIRT</h1>
-                            <h2 class="pinkcolored ">$52.00</h2>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="fetured__blocksBlock ">
-                    <a href="# ">
-                        <div class="addrectangle hidden ">
-                            <div class="addrectangle__button ">
-                                <img class="addrectangle__pic " src="./img/add.svg " alt="add ">
-                                <h2>Add to Cart</h2>
-                            </div>
-                        </div>
-                        <img class="blockImg " src="./img/fetured8.png " alt="block1 ">
-                        <div class="fetured__blocksBlock_blockText ">
-                            <h1>MANGO PEOPLE T-SHIRT</h1>
-                            <h2 class="pinkcolored ">$52.00</h2>
-                        </div>
-                    </a>
-                </div>
 
             </div>
 
-            <div class="fetured__bottom ">
-                <button class="fetured__bottomBrowse">
-                        <h2>Browse All Product</h2> <h2 class="fetured__bottomBrowseArrow">&#8594;</h2>
-                </button>
-            </div>
+
         </section>
 
-        <section class="articles container ">
-            <div class="articles__leftSide articles__img">
-                <div class="articles__leftSideOffer ">
-                    <a href="#">
-                        <h1>30% <span class="pinkcolored ">OFFER</span></h1>
-                        <h2>FOR WOMEN</h2>
-                    </a>
-                </div>
-            </div>
-            <div class="articles__rigthSide ">
-                <div class="articles__rightSideArticle ">
-                    <div class="articles__rightSideImg ">
-                        <img src="./img/delivery.png " alt="delivery ">
-                    </div>
-                    <div class="articles__rightSideText">
-                        <h1>Free Delivery</h1>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </div>
-                </div>
-                <div class="articles__rightSideArticle ">
-                    <div class="articles__rightSideImg ">
-                        <img src="./img/percent.png " alt="discount ">
-                    </div>
-                    <div class="articles__rightSideText">
-                        <h1>Sales &amp; discounts</h1>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </div>
-                </div>
-                <div class="articles__rightSideArticle ">
-                    <div class="articles__rightSideImg ">
-                        <img src="./img/crown.png " alt="quality ">
-                    </div>
-                    <div class="articles__rightSideText">
-                        <h1>Quality assurance</h1>
-                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="subscribes subscribes__img">
+        <section class=" subscribes subscribes__img ">
             <div class="subscribes__block container ">
                 <div class="subscribes__LeftSide ">
                     <img src="./img/woman.png " alt="Intersect ">
                     <div class="subscribes__LeftSideText ">
                         <p><i>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
-                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i>
+                          a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</i>
                         </p>
                         <div class="subscribes__LeftSideName ">
                             <h1 class="pinkcolored ">Bin Burhan</h1>
                             <p>Dhaka, Bd</p>
                         </div>
                         <div class="subscribes__LeftSideStrings ">
-                            <div class="subscribes__LeftSideStrings1"></div>
-                            <div class="subscribes__LeftSideStrings2"></div>
-                            <div class="subscribes__LeftSideStrings1"></div>
+                            <div class="subscribes__LeftSideStrings1 "></div>
+                            <div class="subscribes__LeftSideStrings2 "></div>
+                            <div class="subscribes__LeftSideStrings1 "></div>
 
                         </div>
                     </div>
                 </div>
                 <div class="subscribes__RightSide ">
-                    <div class="subscribes__RightSideText">
+                    <div class="subscribes__RightSideText ">
                         <h1>SUBSCRIBE</h1>
                         <p>FOR OUR NEWLETTER AND PROMOTION</p>
                     </div>
                     <form action=" " class="subscribes__RightSideForm ">
                         <input class="subscribes__RightSideForm_input " type="email " placeholder="Enter Your Email " required>
-                        <button class="subscribes__RightSideForm_button">Subscribe</button></form>
+                        <button class="subscribes__RightSideForm_button ">Subscribe</button></form>
                 </div>
             </div>
         </section>
 
         <section class="info container ">
             <div class="info__leftSide ">
-                <div class="navigation__topLeft_logo">
+                <div class="navigation__topLeft_logo ">
                     <a class="navigation__topLeft_logoLink " href="# ">
                         <img class="navigation__topLeft_logoPic " src="./img/logo.png " alt="logo ">
-                        <h1 class=" navigation__topLeft_logoText">BRAN<span class=" navigation__topLeft_logoTextD pinkcolored ">D</span></h1>
+                        <h1 class=" navigation__topLeft_logoText ">BRAN<span class=" navigation__topLeft_logoTextD pinkcolored ">D</span></h1>
                     </a>
                 </div>
 
                 <div class="info__LeftSideText ">
-                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                    </p>
                     <br>
                     <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. </p>
                 </div>
@@ -717,38 +666,42 @@
                 <p>© 2017 Brand All Rights Reserved.</p>
             </div>
             <div class="footer__RightSide ">
-                <a class="footer__RightSideIcon " href="#">
-                    <svg class="footer__svg" width="9 " height="16 " viewBox="0 0 9 16 " xmlns="http://www.w3.org/2000/svg ">
-                        <path d="M9.08827 8.28L9.50677 5.61602H6.89013V3.88729C6.89013 3.15847 7.25565 2.44806 8.42756 2.44806H9.61713V0.179975C9.61713 0.179975 8.53763 0 7.50551 0C5.35064 0 3.94211 1.27593 3.94211 3.5857V5.61602H1.54678V8.28H3.94211V14.72H6.89013V8.28H9.08827Z "/>
-                        </svg>
+                <a class="footer__RightSideIcon " href="# ">
+                    <svg class="footer__svg " width="9 " height="16 " viewBox="0 0 9 16 " xmlns="http://www.w3.org/2000/svg ">
+                      <path d="M9.08827 8.28L9.50677 5.61602H6.89013V3.88729C6.89013 3.15847 7.25565 2.44806 8.42756 2.44806H9.61713V0.179975C9.61713 0.179975 8.53763 0 7.50551 0C5.35064 0 3.94211 1.27593 3.94211 3.5857V5.61602H1.54678V8.28H3.94211V14.72H6.89013V8.28H9.08827Z "/>
+                      </svg>
 
                 </a>
-                <a class="footer__RightSideIcon" href="#">
-                    <svg class="footer__svg" width="15 " height="16 " viewBox="0 0 15 16 " xmlns="http://www.w3.org/2000/svg ">
-                          <path d="M14.4181 3.74107C14.4281 3.88319 14.4281 4.02535 14.4281 4.16747C14.4281 8.50247 11.1509 13.4974 5.16096 13.4974C3.31558 13.4974 1.60132 12.9593 0.159302 12.0253C0.421495 12.0558 0.673569 12.0659 0.94585 12.0659C2.46851
+                <a class="footer__RightSideIcon " href="# ">
+                    <svg class="footer__svg " width="15 " height="16 " viewBox="0 0 15 16 " xmlns="http://www.w3.org/2000/svg ">
+                        <path d="M14.4181 3.74107C14.4281 3.88319 14.4281 4.02535 14.4281 4.16747C14.4281 8.50247 11.1509 13.4974 5.16096 13.4974C3.31558 13.4974 1.60132 12.9593 0.159302 12.0253C0.421495 12.0558 0.673569 12.0659 0.94585 12.0659C2.46851
                             12.0659 3.8702 11.5482 4.98953 10.6649C3.5576 10.6345 2.3576 9.69032 1.94415 8.39081C2.14585 8.42125 2.34751 8.44156 2.5593 8.44156C2.85172 8.44156 3.14418 8.40094 3.41643 8.32991C1.92401 8.02531 0.80465 6.70553 0.80465 5.11163V5.07103C1.23825
                             5.31469 1.74249 5.46697 2.2769 5.48725C1.39959 4.89841 0.824826 3.89335 0.824826 2.75628C0.824826 2.14716 0.98614 1.58878 1.26851 1.10147C2.87187 3.09131 5.28195 4.39078 7.98443 4.53294C7.93403 4.28928 7.90376 4.0355 7.90376 3.78169C7.90376
                             1.97457 9.35586 0.502502 11.1609 0.502502C12.0987 0.502502 12.9457 0.89844 13.5407 1.53803C14.2768 1.39591 14.9827 1.12178 15.6079 0.746159C15.3659 1.5076 14.8516 2.14719 14.176 2.55325C14.8315 2.48222 15.4668 2.29944 16.0516 2.04566C15.608
                             2.69538 15.0533 3.27403 14.4181 3.74107Z "/>
-                      </svg>
-                </a>
-                <a class="footer__RightSideIcon" href="#">
-                    <svg class="footer__svg" width="100%" height="100%" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg ">
-                         <path d="M8.421 14h.052 0C11.263 14 13 12 13 9.5 12.948 6.945 11.263 5 8.526 5 5.789 5 4 6.945 4 9.5 4 12 5.736 14 8.421 14zM4 17H13V43H4zM44 26.5c0-5.247-4.253-9.5-9.5-9.5-3.053 0-5.762 1.446-7.5 3.684V17h-9v26h9V28h0c0-2.209
-                         1.791-4 4-4s4 1.791 4 4v15h9C44 43 44 27.955 44 26.5z "></path>
-                     </svg>
-                </a>
-                <a class="footer__RightSideIcon  " href="#">
-                    <svg class="footer__svg " width="12 " height="16 " viewBox="0 0 12 16 " xmlns="http://www.w3.org/2000/svg "><path d="M6.7402 0.203125C3.55552 0.203125 0.408081 2.34063 0.408081 5.8C0.408081 8 1.63726 9.25 2.38221 9.25C2.68951 9.25 2.86643 8.3875 2.86643 8.14375C2.86643 7.85313 2.13079 7.23438 2.13079 6.025C2.13079 3.5125 4.03043 1.73125
-                        6.48878 1.73125C8.60259 1.73125 10.167 2.94062 10.167 5.1625C10.167 6.82187 9.50585 9.93437 7.3641 9.93437C6.59121 9.93437 5.93006 9.37187 5.93006 8.56563C5.93006 7.38438 6.74951 6.24062 6.74951 5.02187C6.74951 2.95312
-                        3.83487 3.32812 3.83487 5.82812C3.83487 6.35313 3.90006 6.93437 4.13286 7.4125C3.70451 9.26875 2.82919 12.0344 2.82919 13.9469C2.82919 14.5375 2.91299 15.1188 2.96886 15.7094C3.0744 15.8281 3.02163 15.8156 3.18304 15.7563C4.74744
-                        13.6 4.69157 13.1781 5.39928 10.3562C5.78107 11.0875 6.76814 11.4812 7.55034 11.4812C10.8468 11.4812 12.3274 8.24688 12.3274 5.33125C12.3274 2.22813 9.66415 0.203125 6.7402 0.203125Z "></path>
                     </svg>
                 </a>
-                <a class="footer__RightSideIcon  " href="#">
-                    <svg class="footer__svg " xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 40 40">
-                            <path d="M 17.1875 10.9375 C 9.421875 10.9375 3.125 17.234375 3.125 25 C 3.125 32.765625 9.421875 39.0625 17.1875 39.0625 C 24.953125 39.0625 31.25 32.765625 31.25 25 C 31.25 24.035156 31.144531 23.09375 30.960938 22.1875 L 30.882813 21.875 L 17.1875 21.875 L 17.1875 26.5625 L 26.5625 26.5625 C 25.816406 30.996094 21.832031 34.375 17.1875 34.375 C 12.007813 34.375 7.8125 30.179688 7.8125 25 C 7.8125 19.820313 12.007813 15.625 17.1875 15.625 C 19.53125 15.625 21.667969 16.492188 23.3125 17.914063 L 26.671875 14.625 C 24.171875 12.335938 20.84375 10.9375 17.1875 10.9375 Z M 39.0625 17.1875 L 39.0625 21.875 L 34.375 21.875 L 34.375 25 L 39.0625 25 L 39.0625 29.6875 L 42.1875 29.6875 L 42.1875 25 L 46.875 25 L 46.875 21.875 L 42.1875 21.875 L 42.1875 17.1875 Z"></path>
-                            </svg>
+                <a class="footer__RightSideIcon " href="# ">
+                    <svg class="footer__svg " width="100% " height="100% " viewBox="0 0 50 50 " xmlns="http://www.w3.org/2000/svg ">
+                       <path d="M8.421 14h.052 0C11.263 14 13 12 13 9.5 12.948 6.945 11.263 5 8.526 5 5.789 5 4 6.945 4 9.5 4 12 5.736 14 8.421 14zM4 17H13V43H4zM44 26.5c0-5.247-4.253-9.5-9.5-9.5-3.053 0-5.762 1.446-7.5 3.684V17h-9v26h9V28h0c0-2.209
+                            1.791-4 4-4s4 1.791 4 4v15h9C44 43 44 27.955 44 26.5z "></path>
+                   </svg>
+                </a>
+                <a class="footer__RightSideIcon " href="# ">
+                    <svg class="footer__svg " width="12 " height="16 " viewBox="0 0 12 16 " xmlns="http://www.w3.org/2000/svg "><path d="M6.7402 0.203125C3.55552 0.203125 0.408081 2.34063 0.408081 5.8C0.408081 8 1.63726 9.25 2.38221 9.25C2.68951 9.25
+                            2.86643 8.3875 2.86643 8.14375C2.86643 7.85313 2.13079 7.23438 2.13079 6.025C2.13079 3.5125 4.03043 1.73125 6.48878 1.73125C8.60259 1.73125 10.167 2.94062 10.167 5.1625C10.167 6.82187 9.50585 9.93437 7.3641 9.93437C6.59121 9.93437
+                            5.93006 9.37187 5.93006 8.56563C5.93006 7.38438 6.74951 6.24062 6.74951 5.02187C6.74951 2.95312 3.83487 3.32812 3.83487 5.82812C3.83487 6.35313 3.90006 6.93437 4.13286 7.4125C3.70451 9.26875 2.82919 12.0344 2.82919 13.9469C2.82919
+                            14.5375 2.91299 15.1188 2.96886 15.7094C3.0744 15.8281 3.02163 15.8156 3.18304 15.7563C4.74744 13.6 4.69157 13.1781 5.39928 10.3562C5.78107 11.0875 6.76814 11.4812 7.55034 11.4812C10.8468 11.4812 12.3274 8.24688 12.3274 5.33125C12.3274
+                            2.22813 9.66415 0.203125 6.7402 0.203125Z "></path>
+                  </svg>
+                </a>
+                <a class="footer__RightSideIcon " href="# ">
+                    <svg class="footer__svg " xmlns="http://www.w3.org/2000/svg " width="100% " height="100% " viewBox="0 0 40 40 ">
+                          <path d="M 17.1875 10.9375 C 9.421875 10.9375 3.125 17.234375 3.125 25 C 3.125 32.765625 9.421875 39.0625 17.1875 39.0625 C 24.953125 39.0625 31.25 32.765625 31.25 25 C 31.25 24.035156 31.144531 23.09375 30.960938 22.1875 L
+                            30.882813 21.875 L 17.1875 21.875 L 17.1875 26.5625 L 26.5625 26.5625 C 25.816406 30.996094 21.832031 34.375 17.1875 34.375 C 12.007813 34.375 7.8125 30.179688 7.8125 25 C 7.8125 19.820313 12.007813 15.625 17.1875 15.625 C 19.53125
+                            15.625 21.667969 16.492188 23.3125 17.914063 L 26.671875 14.625 C 24.171875 12.335938 20.84375 10.9375 17.1875 10.9375 Z M 39.0625 17.1875 L 39.0625 21.875 L 34.375 21.875 L 34.375 25 L 39.0625 25 L 39.0625 29.6875 L 42.1875 29.6875
+                            L 42.1875 25 L 46.875 25 L 46.875 21.875 L 42.1875 21.875 L 42.1875 17.1875 Z "></path>
+                          </svg>
                 </a>
             </div>
         </div>
@@ -756,5 +709,6 @@
 
 
 </body>
+
 
 </html>
