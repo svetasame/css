@@ -820,7 +820,7 @@ details > summary {
   align-items: CENTER;
 }
 .breadcrumbs__tittle {
-  font-weight: 900;
+  font-weight: 300;
   line-height: 20px;
   font-size: 24px;
 }
@@ -828,7 +828,7 @@ details > summary {
   display: flex;
 }
 .breadcrumbs__crumbs {
-  font-weight: 300;
+  font-weight: 700;
   line-height: 20px;
   font-size: 14px;
   color: #646464;
@@ -1343,4 +1343,137 @@ details > summary {
   height: 8px;
   background-color: #e6e6e6;
   border-left: solid 2px #f16d7f;
+}
+
+.cart__grid {
+  margin-top: 90px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr 1fr 0.3fr;
+}
+.cart__product {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  padding: 20px 0 20px 0;
+}
+.cart__productimg {
+  width: 102px;
+}
+.cart__productdescription {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 20px 0;
+  justify-content: space-between;
+}
+.cart__tittle h1 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #222222;
+  font-family: "Lato";
+  text-transform: uppercase;
+}
+.cart__tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.cart__start {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.cart__bordered {
+  border-bottom: solid 1px #e6e6e6;
+}
+.cart__productproperties p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f2f2f;
+  padding-top: 10px;
+}
+.cart__productmeaning {
+  font-weight: 300;
+  color: #646464;
+}
+.cart__text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f2f2f;
+}
+.cart__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart__img {
+  height: 15px;
+  width: 15px;
+}
+.cart__quantity {
+  border: solid 1px #e6e6e6;
+  padding: 5px 20px 5px 20px;
+}
+.cart__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 62px;
+}
+.cart__button {
+  padding: 22px 40px 19px 40px;
+  border: solid 1px #e6e6e6;
+  font-size: 14px;
+  font-weight: 700;
+  color: #222222;
+  font-family: "Lato";
+  text-transform: uppercase;
+}
+.cart__shipping {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  width: 358px;
+  gap: 20px;
+}
+.cart__summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px 20px 20px;
+  font-size: 13px;
+  font-weight: 300;
+  border: 1px solid #e6e6e6;
+  font-family: "Lato";
+  gap: 8px;
+  width: 358px;
+  color: #898989;
+}
+.cart__summary::-moz-placeholder {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Lato";
+  color: #898989;
+}
+.cart__summary::placeholder {
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Lato";
+  color: #898989;
+}
+.cart__smallbutton {
+  padding: 14px 16px;
+  font-size: 11px;
+}
+.cart__total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}
+.cart__heading {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato";
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
