@@ -920,7 +920,7 @@ details > summary {
   border-color: #f16d7f;
   border-style: solid;
 }
-.product__add h2 {
+.product__add a {
   font-size: 16px;
   font-weight: bold;
   color: #FFFFFF;
@@ -931,7 +931,7 @@ details > summary {
 .product__add:hover {
   background-color: #FFFFFF;
 }
-.product__add:hover h2 {
+.product__add:hover a {
   color: #f16d7f;
 }
 .product__add:hover svg {
@@ -1434,7 +1434,7 @@ details > summary {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  width: 358px;
+  width: 325.7142857143px;
   gap: 20px;
 }
 .cart__summary {
@@ -1447,7 +1447,7 @@ details > summary {
   border: 1px solid #e6e6e6;
   font-family: "Lato";
   gap: 8px;
-  width: 358px;
+  width: 300px;
   color: #898989;
 }
 .cart__summary::-moz-placeholder {
@@ -1476,4 +1476,53 @@ details > summary {
   font-weight: 700;
   font-family: "Lato";
   text-transform: uppercase;
+}
+.cart__checkout {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato";
+  text-transform: uppercase;
+  background-color: #f16d7f;
+  color: #FFFFFF;
+  padding: 20px 44px;
+  border: 1px solid #f16d7f;
+}
+.cart__checkout:hover {
+  color: #f16d7f;
+  background-color: #FFFFFF;
+}
+.cart__proceed {
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 42px 42px;
+  background-color: #e6e6e6;
+}
+.cart__subtotal p {
+  font-size: 11px;
+  font-weight: 400;
+  font-family: "Lato";
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.cart__sum {
+  font-weight: 700;
+  padding-left: 20px;
+}
+.cart__grandtotal p {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Lato";
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.cart__colored {
+  color: #f16d7f;
+  padding-left: 20px;
+}
+.cart__lined {
+  padding-top: 14px;
+  border-top: 1px solid #9f9f9f;
 }/*# sourceMappingURL=style.css.map */
